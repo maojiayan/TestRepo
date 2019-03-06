@@ -1,31 +1,77 @@
 # Table Cases: Empty column/Row
 
 ## Normal table
-| Normal table | Description          |
-| ------------- | ----------- |
-| 1_Help      | Display the help window.|
-| Close     | _Closes_ a window     |
+
+<table>
+  <thead>
+    <tr>
+      <th>Normal table</th><th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1_Help</td><td>Display the help window.</td>
+    </tr>
+    <tr>
+      <td>Close</td><td>Closes a window</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Empty Row
 ### The first row is empty
-|  | |
-| ------------- | ----------- |
-|    The first row is empty   | Display the help window.|
-| Close     | _Closes_ a window     |
 
+<table>
+  <thead>
+    <tr>
+      <th</th><th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1_Help</td><td>Display the help window.</td>
+    </tr
+    <tr>
+      <td>Close</td><td> Closes a window</td>
+    </tr>
+  </tbody>
+</table>
 
 ### The second row is empty
-| Table header 1 |Table header 2 |
-| ------------- | ----------- |
-|      | |
-| Close     | _Closes_ a window     |
+
+<table>
+  <thead>
+    <tr>
+      <th>Normal table</th><th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td><td></td>
+    </tr>
+    <tr>
+      <td>Close</td><td>Closes a window</td>
+    </tr>
+  </tbody>
+</table>
 
 ### The first and second row are empty
-| | |
-| ------------- | ----------- |
-|      | |
-| Close     | _Closes_ a window    
 
+<table>
+  <thead>
+    <tr>
+      <th></th><th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td><td></td>
+    </tr>
+    <tr>
+      <td>Close</td><td>Closes a window</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Empty Column
 ### The first column is empty
