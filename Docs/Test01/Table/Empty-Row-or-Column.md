@@ -41,7 +41,7 @@
 |      |   Cell |  |
 
 ## Empty Column & Row 
-### Empty Column & Row
+### Empty Column & header
 
 |  | | |
 | ------------- | ----------- |---|
